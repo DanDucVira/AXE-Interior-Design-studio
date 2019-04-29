@@ -12,33 +12,59 @@
 
 
 
-/*navigation styles*/
-#navbar {
+/*Navigation Styles*/
+.navbar {
     color: #a1dd70;
-    top: 0;
     display: flex;
-    position: sticky;
+    padding: 22px;
+    font-family: sans-serif;
+    color: white;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
-    z-index: 1;
-    padding: 1rem;
 }
 
-#navbar ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-
-
-}
-
-#navbar ul li a {
-    text-decoration: none;
-    padding: 0.75rem;
+.navbar-link-brand {
     color: #a1dd70;
-    margin: 0 0.25rem;
+    font-size: 1.5rem;
 }
 
-/*showcase styles*/
+.navbar-link {
+    padding-right: 8px;
+    color: #a1dd70;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar-link a {
+    color: #a1dd70;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items-right {
+    margin-left: auto;
+}
+
+.navbar-link-toggle {
+    display: none;
+    font-size: 1.5rem;
+
+}
+
+/*Header Styles*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
     height: 850px;
@@ -49,7 +75,7 @@ header {
 
 .header-headline {
     text-align: center;
-    margin-top: 40%;
+    padding-top: 15%;
     color: white;
 }
 

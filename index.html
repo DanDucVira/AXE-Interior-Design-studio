@@ -5,27 +5,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>AXE | interior design studio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and(max-width: 1100px)" href="css/widescreen.css">
+    <title>AXE / Interior Design Studio </title>
 </head>
 
 <body>
-    <header id="main-header">
-        <nav id="navbar">
-            <h1 class="logo">
+    <header class="main-header">
+        <div class="navbar">
+            <div class="navbar-Link navbar-link-brand">
                 AXE
-            </h1>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+            </div>
+            <div class="navbar-link navbar-link-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="navbar-items navbar-items-right">
+                <ul>
+                    <li class="navbar-link">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="#">Projects</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="#">Team</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="header-headline">
             <h1 class="header-title">AXE / Interior Design Studio</h1>
             <p class="header-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             <button class="header-btn">Learn More</button>
         </div>
     </header>
+    <main>
+        <section class="our-story">
+            <h2>Our Story</h2>
+            <div class="story-container">
+                <img src="/img/our-story.jpg" alt="picture of the studio">
+                <div class="story-text">
+                    <h3>The Studio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis id saepe commodi.</p>
+                    <h3>How We Work</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi alias expedita facilis.</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="our-services">
+            <h2>Our services</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, corporis cum? Ducimus!</p>
+            <div class="services-container">
+                <div class="box-residential">
+                    <h3>Residential Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium impedit illo fugit? Ducimus,
+                        similique dicta!</p>
+
+                </div>
+                <div class="box-office">
+                    <h3>Office Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptas, minus perspiciatis
+                        quae pariatur debitis.</p>
+
+                </div>
+                <div class="box-commercial">
+                    <h3>Commercial Design</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia in a veritatis dolore
+                        perferendis corrupti!</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem saepe quis.</p>
+            /*Grid goes here*/
+        </section>
+        <section class="team">
+            <h2>Meet The Team</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae illo similique ea.</p>
+            <div class="container-team">
+                <div class="box-team"></div>
+                <div class="box-team"></div>
+                <div class="box-team"></div>
+                <div class="box-team"></div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Axe 2019</p>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
