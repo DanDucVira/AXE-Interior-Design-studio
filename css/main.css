@@ -105,3 +105,77 @@ header {
     background-color: #363636;
     color: #a1dd70;
 }
+
+/*Our story Styles*/
+.our-story {
+    padding: 120px;
+
+}
+
+.our-story h2 {
+    padding-bottom: 94px;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.story-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.story-container img {
+    width: 550px;
+    height: 350px;
+    border-right: 19px solid #a1dd70;
+    border-radius: 12px 95px;
+
+}
+
+.story-container .story-text {
+    padding: 25px;
+}
+
+.story-container .story-text h3 {
+    padding: 24px 0px;
+    font-size: 1.5rem;
+
+}
+
+/*our services styles*/
+.our-services {
+    padding: 120px;
+    text-align: center;
+}
+
+.our-services h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 55px;
+}
+
+.our-services p {
+    padding-bottom: 85px;
+}
+
+
+.services-container {
+    display: flex;
+    justify-content: center;
+}
+
+.services-container img {
+    width: 400px;
+    height: 300px;
+    border-right: 19px solid #a1dd70;
+    border-radius: 12px 95px;
+
+    margin: 14px;
+}
+
+.services-container .box h3 {
+    padding-bottom: 10px;
+}
