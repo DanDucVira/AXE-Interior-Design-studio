@@ -1,12 +1,12 @@
 /*Link https://colorhunt.co/palette/139362*/
 /*https://www.free-css.com/free-css-templates/page230/nest*/
 /*Global styles*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
