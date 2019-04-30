@@ -70,3 +70,41 @@ header {
     background-color: #363636;
     color: #a1dd70;
 }
+
+/*Our story Styles*/
+.our-story {
+    padding: 0px;
+
+}
+
+.our-story h2 {
+    padding-bottom: 94px;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.story-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.story-container img {
+    width: 100%;
+
+
+
+}
+
+.story-container .story-text {
+    padding: 25px;
+}
+
+.story-container .story-text h3 {
+    padding: 24px 0px;
+    font-size: 1.5rem;
+
+}
