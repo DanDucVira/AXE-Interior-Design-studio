@@ -286,12 +286,26 @@ header {
 .container-contact input {
     width: 100%;
     padding: 8px;
+    margin: 8px 0px;
+
 }
 
 .container-contact textarea {
     width: 100%;
 }
 
+.contact-info h3 {
+    padding-bottom: 25px;
+}
+
 .form {
-    margin: 0px 55px;
+    margin: 0px 15%;
+}
+
+.contact-btn {
+    padding: 15px 12px;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    background-color: #A7C055;
 }
