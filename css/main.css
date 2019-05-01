@@ -25,10 +25,14 @@
     justify-content: space-between;
 }
 
-.navbar-link-brand {
+
+
+.navbar-link-brand a {
     color: #a1dd70;
     font-size: 1.5rem;
+    text-decoration: none;
 }
+
 
 .navbar-link {
     padding-right: 28px;
@@ -211,6 +215,7 @@ header {
     padding: 0 20px 20px;
     width: 350px;
     height: 250px;
+    border-radius: 12px 95px;
 
 
 }
@@ -254,4 +259,39 @@ header {
 
 .box-team {
     color: white;
+}
+
+/*contact section styles*/
+.contact {
+    padding: 120px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 55px;
+}
+
+.contact p {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-contact input {
+    width: 100%;
+    padding: 8px;
+}
+
+.container-contact textarea {
+    width: 100%;
+}
+
+.form {
+    margin: 0px 55px;
 }
