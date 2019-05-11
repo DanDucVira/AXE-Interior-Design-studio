@@ -239,7 +239,7 @@ header {
 /*team section styles*/
 .team {
     background-color: #A7C055;
-
+    color: white;
     text-align: center;
     padding: 120px;
 }
