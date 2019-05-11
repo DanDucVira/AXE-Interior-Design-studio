@@ -8,6 +8,7 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+
 }
 
 
@@ -108,12 +109,14 @@ header {
 .header-btn:hover {
     background-color: #363636;
     color: #a1dd70;
+    cursor: pointer;
 }
 
 /*Our story Styles*/
 .our-story {
     padding: 120px;
     background-color: #F6F6F6;
+    color: #333;
 
 }
 
@@ -153,6 +156,7 @@ header {
 .our-services {
     padding: 120px;
     text-align: center;
+    color: #333;
 }
 
 .our-services h2 {
@@ -183,12 +187,19 @@ header {
 
 .services-container .box h3 {
     padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.services-container .box p {
+    padding-left: 15px;
 }
 
 /*Projects section styles*/
 .projects {
     padding: 120px;
     background-color: #F6F6F6;
+    color: #333;
 }
 
 .projects h2 {
@@ -264,12 +275,18 @@ header {
 /*contact section styles*/
 .contact {
     padding: 120px;
+    color: #333;
 }
 
 .contact h2 {
     text-align: center;
     font-size: 2rem;
     padding-bottom: 55px;
+    text-transform: uppercase;
+}
+
+.contact h4 {
+    text-align: center;
 }
 
 .contact p {
@@ -296,6 +313,7 @@ header {
 
 .contact-info h3 {
     padding-bottom: 25px;
+    text-align: center;
 }
 
 .form {
@@ -308,4 +326,15 @@ header {
     border: none;
     margin-top: 25px;
     background-color: #A7C055;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #363636;
+    color: #A7C055;
+    text-align: center;
+    text-transform: uppercase;
 }

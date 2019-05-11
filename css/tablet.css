@@ -1,0 +1,51 @@
+/*Navigation Styles*/
+.navbar {
+    color: #a1dd70;
+    display: flex;
+    padding: 22px;
+    font-family: sans-serif;
+    color: white;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-link-brand {
+    color: #a1dd70;
+    font-size: 1.5rem;
+}
+
+.navbar-link {
+    padding-right: 28px;
+    color: #a1dd70;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar-link a {
+    color: #a1dd70;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items-right {
+    margin-left: auto;
+}
+
+.navbar-link-toggle {
+    display: none;
+    font-size: 1.5rem;
+
+}
