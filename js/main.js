@@ -19,7 +19,7 @@ window.addEventListener('scroll', function () {
     }
 });
 //Smooth Scrolling
-$('.navbar a').on('click', function (event) {
+$('.navbar .navbar-items .navbar-link a').on('click', function (event) {
     if (this.hash !== '') {
         event.preventDefault();
         const hash = this.hash;
