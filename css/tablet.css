@@ -1,4 +1,13 @@
 /*Navbar Styles responsive*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
 .navbar-items,
 .navbar {
     flex-direction: column;
