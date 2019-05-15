@@ -339,3 +339,20 @@ footer {
     text-transform: uppercase;
     padding: 15px;
 }
+
+@media(min-width: 1072px) {
+    #our-services .services-container {
+        flex-direction: column;
+    }
+
+    #our-services .services-container .box img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .container-team {
+        flex-direction: column;
+    }
+
+    .container-team .box-team {}
+}
