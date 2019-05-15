@@ -341,6 +341,10 @@ footer {
 }
 
 @media(min-width: 1072px) {
+    .header-headline {
+        padding: 20%;
+    }
+
     #our-services .services-container {
         flex-direction: column;
     }
@@ -354,5 +358,8 @@ footer {
         flex-direction: column;
     }
 
-    .container-team .box-team {}
+    .container-team .box-team img {
+        width: 500px;
+        height: 450px;
+    }
 }
