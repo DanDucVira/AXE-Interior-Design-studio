@@ -340,7 +340,7 @@ footer {
     padding: 15px;
 }
 
-@media(min-width: 1072px) {
+/* @media(min-width: 1072px) {
     .header-headline {
         padding: 20%;
     }
@@ -362,4 +362,4 @@ footer {
         width: 500px;
         height: 450px;
     }
-}
+} */
